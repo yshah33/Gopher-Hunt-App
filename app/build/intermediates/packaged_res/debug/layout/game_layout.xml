@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Stop"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/delius"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:text="Player 1 Grid"
+        android:textColor="#7F1E1E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="371dp"
+        android:layout_height="275dp"
+        android:layout_below="@id/player1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:numColumns="10"
+        android:padding="1dp"
+        android:verticalSpacing="1dp" />
+
+    <TextView
+        android:id="@+id/result1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/delius"
+        android:padding="5dp"
+        android:paddingBottom="32dp"
+        android:layout_below="@id/gridView1"
+        android:textColor="#4B3286"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/delius"
+        android:padding="5dp"
+        android:paddingBottom="32dp"
+        android:layout_below="@id/result1"
+        android:text="Player 2 Grid"
+        android:textColor="#7F1E1E"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/gridView2"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_below="@id/player2"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:horizontalSpacing="1dp"
+        android:numColumns="10"
+        android:padding="1dp"
+        android:verticalSpacing="1dp" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/delius"
+        android:padding="5dp"
+        android:layout_below="@id/gridView2"
+        android:textColor="#4B3286"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/delius"
+        android:padding="5dp"
+        android:layout_below="@id/result2"
+        android:textColor="#7F1E1E"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

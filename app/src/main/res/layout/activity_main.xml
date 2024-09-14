@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/gameText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/delius"
+        android:padding="5dp"
+        android:text="Welcome To The"
+        android:textColor="#7F1E1E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gameText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gameText1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/delius"
+        android:padding="5dp"
+        android:text="Gopher Hunting"
+        android:textColor="#7F1E1E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gopher_image"
+        android:layout_width="264dp"
+        android:layout_height="390dp"
+        android:layout_below="@id/gameText2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/image" />
+
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/gopher_image"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="Start Game"
+        android:background="#8B4513"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/start_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="#8B4513"
+        android:text="Stop Game" />
+
+
+</RelativeLayout>

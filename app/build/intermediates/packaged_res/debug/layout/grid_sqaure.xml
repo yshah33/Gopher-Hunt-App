@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="1dp">
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="24dp" />
+
+    <TextView
+        android:id="@+id/gridText"
+        android:layout_width="30dp"
+        android:layout_height="24dp"
+        android:text=""
+        android:layout_marginRight="7dp"
+        android:gravity="center|left|left"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+</LinearLayout>

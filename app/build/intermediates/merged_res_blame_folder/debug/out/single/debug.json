@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.project4.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.project4.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/font_hind_light.xml.flat",
+        "source": "com.example.project4.app-main-33:/font/hind_light.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/drawable_image.png.flat",
+        "source": "com.example.project4.app-main-33:/drawable/image.png"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/font_calligraffitti.xml.flat",
+        "source": "com.example.project4.app-main-33:/font/calligraffitti.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.project4.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/layout_grid_sqaure.xml.flat",
+        "source": "com.example.project4.app-main-33:/layout/grid_sqaure.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.project4.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/font_delius.xml.flat",
+        "source": "com.example.project4.app-main-33:/font/delius.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/layout_game_layout.xml.flat",
+        "source": "com.example.project4.app-main-33:/layout/game_layout.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.project4.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.project4.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.example.project4.app-main-33:/xml/backup_rules.xml"
+    }
+]
